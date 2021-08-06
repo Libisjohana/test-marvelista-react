@@ -1,0 +1,88 @@
+.div-preguntas {
+    width: 100%;
+    margin-top: 30px;
+    .caja-preguntas {
+        width: 100%;
+        height: 430px;
+        margin: 0px auto;
+        box-shadow: -10px 10px 2px #cecece;
+        display: flex;
+        flex-direction: column;
+        background: #f9f9f9;
+        border-radius: 20px;
+        overflow: hidden;
+
+        .caja-header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            background: #993535;
+            padding: 20px 30px;
+            h2{
+                margin: 0px;
+                font-size: 25px;
+                color: #f9f9f9;
+            }
+        }
+
+        .caja-pregunta {
+            margin: 0px auto;
+            box-shadow: -10px 10px 2px #cecece;
+            background: #993535;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 30px;
+            height: 300px;
+            color: #f9f9f9;
+
+            .titulo-pregunta{
+                text-align: center;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .caja-respuestas {
+                height: 120px;
+                padding: 15px;
+                font-size: 15px;
+                color: #f9f9f9;
+                font-weight: 500;
+                width: 100%;
+                margin: 10px auto;
+                p > span {
+                    font-weight: 300;
+                }
+            }
+
+            .respuesta-boton {
+                width: 35%;
+                height: 80px;
+                margin: 5px auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .input-respuesta {
+                    width: 40%;
+                    height: 35px;
+                    outline: none;
+                    border: none;
+                    background: none;
+                    border-bottom: 1px solid #f9f9f9;
+                    text-align: center;
+                    color: #f9f9f9;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+
+                button {
+                    border: none;
+                    background-color: #598daf !important;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

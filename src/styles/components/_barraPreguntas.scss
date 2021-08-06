@@ -1,0 +1,42 @@
+.caja-soluciones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .caja-pregunta {
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        .circulo-numero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            color: #fff;
+            border-radius: 50%;
+            &.correcta{
+                border: 1px solid green;
+                background: green;
+            }
+            &.incorrecta{
+                border: 1px solid red;
+                background: red;
+            }
+        }
+
+        .text-solucion{
+            margin: 0px;
+            font-size: 18px;
+            &.correcta{
+                color: green;
+            }
+            &.incorrecta{
+                color: red;
+            }
+        }
+    }
+}

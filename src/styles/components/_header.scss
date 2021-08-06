@@ -1,0 +1,39 @@
+header{
+    background: $colorBlue;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+
+    h2.title-header{
+        color: white;
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    .box-user{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        align-items: center;
+        width: 20%;
+        height: 100%;
+        img{
+            max-width: 100%;
+            width: 30px;
+        }
+        span{
+            font-size: 22px;
+            color: #f9f9f9;
+        }
+    }
+
+    .line-progress{
+        background: #1cd143;
+        width: 0%;
+        height: 5px;
+    }
+}
