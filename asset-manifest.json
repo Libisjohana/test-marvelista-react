@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-marvelista-react/static/css/main.adfe93c4.chunk.css",
+    "main.js": "/test-marvelista-react/static/js/main.428468b9.chunk.js",
+    "main.js.map": "/test-marvelista-react/static/js/main.428468b9.chunk.js.map",
+    "runtime-main.js": "/test-marvelista-react/static/js/runtime-main.18d7b06d.js",
+    "runtime-main.js.map": "/test-marvelista-react/static/js/runtime-main.18d7b06d.js.map",
+    "static/js/2.4855cbb7.chunk.js": "/test-marvelista-react/static/js/2.4855cbb7.chunk.js",
+    "static/js/2.4855cbb7.chunk.js.map": "/test-marvelista-react/static/js/2.4855cbb7.chunk.js.map",
+    "index.html": "/test-marvelista-react/index.html",
+    "static/css/main.adfe93c4.chunk.css.map": "/test-marvelista-react/static/css/main.adfe93c4.chunk.css.map",
+    "static/js/2.4855cbb7.chunk.js.LICENSE.txt": "/test-marvelista-react/static/js/2.4855cbb7.chunk.js.LICENSE.txt",
+    "static/media/user.be33bb01.svg": "/test-marvelista-react/static/media/user.be33bb01.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18d7b06d.js",
+    "static/js/2.4855cbb7.chunk.js",
+    "static/css/main.adfe93c4.chunk.css",
+    "static/js/main.428468b9.chunk.js"
+  ]
+}
